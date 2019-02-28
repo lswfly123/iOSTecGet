@@ -35,8 +35,8 @@ static NSArray *respondClasses;
     [self.view addSubview:btn];
     
     
-    Person *person = [[Person alloc]init];
-    objc_msgSend(person, @selector(eat));
+//    Person *person = [[Person alloc]init];
+//    objc_msgSend(person, @selector(eat));
     
 //    objc_msgSend(objc_getClass("MJPerson"),sel_registerName("initialize"));
 }
@@ -44,6 +44,13 @@ static NSArray *respondClasses;
 - (void)logInfo:(NSString *)info{
     
     NSLog(@"----%@------",info);
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    
+//    Person *person = [[Person alloc]init];
+//    person.firstName = @"Brian";
+//    NSLog(@"我的名字是：%@",person.firstName);
 }
 
 

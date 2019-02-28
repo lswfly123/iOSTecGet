@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		663103AD222632CF00000EEC /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 663103AC222632CF00000EEC /* Person.m */; };
+		660CBE092227C71A001E7980 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 660CBE082227C71A001E7980 /* Person.m */; };
 		663D49E6221FCCE8006175D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D49E5221FCCE8006175D3 /* AppDelegate.m */; };
 		663D49E9221FCCE8006175D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D49E8221FCCE8006175D3 /* ViewController.m */; };
 		663D49EC221FCCE8006175D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663D49EA221FCCE8006175D3 /* Main.storyboard */; };
@@ -23,11 +23,12 @@
 		663D4A102224D99F006175D3 /* NullSafeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D4A0F2224D99F006175D3 /* NullSafeViewController.m */; };
 		663D4A132224DEF2006175D3 /* SWDealTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D4A122224DEF2006175D3 /* SWDealTool.m */; };
 		66788F0422261CAA00747432 /* SWCompileTest.c in Sources */ = {isa = PBXBuildFile; fileRef = 66788F0322261CAA00747432 /* SWCompileTest.c */; };
+		66A804342227919400925566 /* NSString+EOCMyAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A804332227919400925566 /* NSString+EOCMyAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		663103AB222632CF00000EEC /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		663103AC222632CF00000EEC /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		660CBE072227C71A001E7980 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		660CBE082227C71A001E7980 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		663D49E1221FCCE8006175D3 /* 02.富文本测试.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02.富文本测试.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		663D49E4221FCCE8006175D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		663D49E5221FCCE8006175D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -55,6 +56,8 @@
 		663D4A122224DEF2006175D3 /* SWDealTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWDealTool.m; sourceTree = "<group>"; };
 		66788F0222261CAA00747432 /* SWCompileTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWCompileTest.h; sourceTree = "<group>"; };
 		66788F0322261CAA00747432 /* SWCompileTest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SWCompileTest.c; sourceTree = "<group>"; };
+		66A804322227919400925566 /* NSString+EOCMyAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+EOCMyAdditions.h"; sourceTree = "<group>"; };
+		66A804332227919400925566 /* NSString+EOCMyAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+EOCMyAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 			children = (
 				663D4A062220008F006175D3 /* NSString+SWExtension.h */,
 				663D4A072220008F006175D3 /* NSString+SWExtension.m */,
+				66A804322227919400925566 /* NSString+EOCMyAdditions.h */,
+				66A804332227919400925566 /* NSString+EOCMyAdditions.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -137,8 +142,8 @@
 				663D4A122224DEF2006175D3 /* SWDealTool.m */,
 				66788F0222261CAA00747432 /* SWCompileTest.h */,
 				66788F0322261CAA00747432 /* SWCompileTest.c */,
-				663103AB222632CF00000EEC /* Person.h */,
-				663103AC222632CF00000EEC /* Person.m */,
+				660CBE072227C71A001E7980 /* Person.h */,
+				660CBE082227C71A001E7980 /* Person.m */,
 			);
 			path = "底层原理";
 			sourceTree = "<group>";
@@ -216,13 +221,14 @@
 			files = (
 				663D4A102224D99F006175D3 /* NullSafeViewController.m in Sources */,
 				663D4A04221FFFFD006175D3 /* SmallTipsViewController.m in Sources */,
+				66A804342227919400925566 /* NSString+EOCMyAdditions.m in Sources */,
 				663D4A0C22237E64006175D3 /* SWTimeViewController.m in Sources */,
 				663D49E9221FCCE8006175D3 /* ViewController.m in Sources */,
 				66788F0422261CAA00747432 /* SWCompileTest.c in Sources */,
 				663D49F4221FCCF8006175D3 /* main.m in Sources */,
-				663103AD222632CF00000EEC /* Person.m in Sources */,
 				663D49FD221FDE89006175D3 /* SWCollectionVIewCell.m in Sources */,
 				663D49E6221FCCE8006175D3 /* AppDelegate.m in Sources */,
+				660CBE092227C71A001E7980 /* Person.m in Sources */,
 				663D4A132224DEF2006175D3 /* SWDealTool.m in Sources */,
 				663D4A01221FE1F9006175D3 /* RichTextViewController.m in Sources */,
 				663D4A082220008F006175D3 /* NSString+SWExtension.m in Sources */,

@@ -1,5 +1,5 @@
 //
-//  Person.h
+//  NSString+EOCMyAdditions.h
 //  02.富文本测试
 //
 //  Created by 信息科技部 on 2019/2/28.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Person : NSObject
+@interface NSString (EOCMyAdditions)
 
 @end
 
