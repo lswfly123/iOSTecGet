@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		660CBE092227C71A001E7980 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 660CBE082227C71A001E7980 /* Person.m */; };
+		660CBE0C2228C868001E7980 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 660CBE0B2228C868001E7980 /* TestViewController.m */; };
+		660CBE0F2228CE5E001E7980 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 660CBE0E2228CE5E001E7980 /* Person.m */; };
 		663D49E6221FCCE8006175D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D49E5221FCCE8006175D3 /* AppDelegate.m */; };
 		663D49E9221FCCE8006175D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D49E8221FCCE8006175D3 /* ViewController.m */; };
 		663D49EC221FCCE8006175D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663D49EA221FCCE8006175D3 /* Main.storyboard */; };
@@ -27,8 +28,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		660CBE072227C71A001E7980 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		660CBE082227C71A001E7980 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		660CBE0A2228C868001E7980 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		660CBE0B2228C868001E7980 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		660CBE0D2228CE5E001E7980 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		660CBE0E2228CE5E001E7980 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		663D49E1221FCCE8006175D3 /* 02.富文本测试.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02.富文本测试.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		663D49E4221FCCE8006175D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		663D49E5221FCCE8006175D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -142,8 +145,10 @@
 				663D4A122224DEF2006175D3 /* SWDealTool.m */,
 				66788F0222261CAA00747432 /* SWCompileTest.h */,
 				66788F0322261CAA00747432 /* SWCompileTest.c */,
-				660CBE072227C71A001E7980 /* Person.h */,
-				660CBE082227C71A001E7980 /* Person.m */,
+				660CBE0A2228C868001E7980 /* TestViewController.h */,
+				660CBE0B2228C868001E7980 /* TestViewController.m */,
+				660CBE0D2228CE5E001E7980 /* Person.h */,
+				660CBE0E2228CE5E001E7980 /* Person.m */,
 			);
 			path = "底层原理";
 			sourceTree = "<group>";
@@ -221,6 +226,8 @@
 			files = (
 				663D4A102224D99F006175D3 /* NullSafeViewController.m in Sources */,
 				663D4A04221FFFFD006175D3 /* SmallTipsViewController.m in Sources */,
+				660CBE0F2228CE5E001E7980 /* Person.m in Sources */,
+				660CBE0C2228C868001E7980 /* TestViewController.m in Sources */,
 				66A804342227919400925566 /* NSString+EOCMyAdditions.m in Sources */,
 				663D4A0C22237E64006175D3 /* SWTimeViewController.m in Sources */,
 				663D49E9221FCCE8006175D3 /* ViewController.m in Sources */,
@@ -228,7 +235,6 @@
 				663D49F4221FCCF8006175D3 /* main.m in Sources */,
 				663D49FD221FDE89006175D3 /* SWCollectionVIewCell.m in Sources */,
 				663D49E6221FCCE8006175D3 /* AppDelegate.m in Sources */,
-				660CBE092227C71A001E7980 /* Person.m in Sources */,
 				663D4A132224DEF2006175D3 /* SWDealTool.m in Sources */,
 				663D4A01221FE1F9006175D3 /* RichTextViewController.m in Sources */,
 				663D4A082220008F006175D3 /* NSString+SWExtension.m in Sources */,
