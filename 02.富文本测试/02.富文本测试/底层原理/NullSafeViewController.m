@@ -41,6 +41,13 @@ static NSArray *respondClasses;
 //    objc_msgSend(objc_getClass("MJPerson"),sel_registerName("initialize"));
 }
 
+- (void)temBtnClick:(UIButton *)btn{
+    
+    Person *p = [[Person alloc]init];
+    p.age = 15;
+//    NSLog(@"小明的年龄是%d",p.age);
+}
+
 - (void)logInfo:(NSString *)info{
     
     NSLog(@"----%@------",info);
