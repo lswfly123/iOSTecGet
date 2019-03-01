@@ -15,10 +15,10 @@
 
 @dynamic firstName;
 
-- (NSString *)firstName{
-    
-    return _firstName;
-}
+//- (NSString *)firstName{
+//
+//    return _firstName;
+//}
 
 
 
